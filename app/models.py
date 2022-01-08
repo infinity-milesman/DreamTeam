@@ -67,7 +67,7 @@ class Department(db.Model):
     def __repr__(self):
         return '<Department: {}>'.format(self.name)
 
-class Roles(db.Model):
+class Role(db.Model):
     """
     Create a Role table.
     """
